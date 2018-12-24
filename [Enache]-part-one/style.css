@@ -1,0 +1,184 @@
+
+html{
+	
+	font-family: fira sans;
+	
+}
+
+title{
+	
+	color:#88898B;
+	
+}
+
+body{	
+
+	Font-family: Fira Sans;
+	background-color: #F0ECEE;
+	background-size: cover;
+	
+}
+
+button{
+	
+	border-radius: 15px;
+	background-color:#FF4850;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	font-weight: 300;
+	font-size: 15px;
+	
+}
+
+button:hover{
+	
+	background-color: #CCC;
+	color: #FF4850;
+	
+}
+
+a {
+	
+	color: #88898B;
+	text-decoration: none;
+	
+}
+
+ul{
+
+	list-style: none;
+	margin: 0;
+	/*margin-left: 10px;*/
+	padding: 0;
+	font-weight: 300;
+	
+}
+
+li{
+	
+	font-size: 15px;
+	Font-weight: 300;
+	
+}
+
+.Menu:hover{
+	
+	color:#FF4850;
+	
+}
+
+.buddies{
+	
+	margin-bottom: 15px;
+	
+}
+
+.red{
+	
+	color:#FF4850;
+	
+}
+
+.Adopt{
+	flex:1;
+	font-size: 30px;
+	margin-left: 10px;
+	Font-weight: 400;
+}
+
+.Menu{
+	
+	flex:1;
+	text-align: center;
+	
+}
+
+.secondCol{
+	
+	position:static;
+	margin-left:10px;
+	
+}
+
+.firstP{
+	
+	font-size: 35px;
+	Font-weight: 600;
+	
+}
+
+.secondP{
+	
+	Font-weight: 300;
+	color:#88898B;
+	font-size: 15px;
+	
+}
+
+.find{
+	
+	padding: 10px 30px;
+	
+}
+
+@media (min-width: 768px){
+	
+	.Top{
+		
+		Display: flex;
+		
+	}
+	
+	.Adopt{
+	
+		margin-left: 40px;
+	
+	}
+	
+	ul{
+		
+		Display: flex;
+		justify-content:space-between;
+		
+	}
+	
+	li{
+		
+		padding: 25px;
+		text-align:center;
+		
+	}
+	
+	body{	
+
+		background-image:url("bulldog.jpg");
+	
+	}
+	
+	a{
+		
+		position:relative;
+		Top:25%;
+		/*vertical-align: middle;*/
+		width:100%;
+		flex:1;
+		
+	}
+	
+	.secondCol{
+		
+		margin-left: 40px;
+		padding-right: 60%;
+		position:absolute;
+		Top:25%;
+		
+	}
+	
+	.find{
+		
+		width: 40%;
+		
+	}
+	
+}
