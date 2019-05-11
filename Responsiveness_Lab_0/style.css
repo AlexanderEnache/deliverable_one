@@ -1,184 +1,173 @@
 
 html{
-	
 	font-family: fira sans;
-	
 }
 
 title{
-	
 	color:#88898B;
-	
 }
 
-body{	
-
+body{
 	Font-family: Fira Sans;
 	background-color: #F0ECEE;
 	background-size: cover;
-	
+	padding-right: 10px;
 }
 
 button{
-	
+	border: none;
 	border-radius: 15px;
 	background-color:#FF4850;
 	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	width: 100%;
 	color: white;
 	font-weight: 300;
-	font-size: 15px;
-	
+	font-size: 20px;
+	outline:0;
+}
+
+.find{
+	margin-top: 20px;
 }
 
 button:hover{
-	
 	background-color: #CCC;
 	color: #FF4850;
-	
 }
 
 a {
-	
 	color: #88898B;
 	text-decoration: none;
-	
 }
 
 ul{
-
 	list-style: none;
 	margin: 0;
-	/*margin-left: 10px;*/
 	padding: 0;
+	padding-left: 10px;
 	font-weight: 300;
-	
 }
 
 li{
-	
-	font-size: 15px;
+	font-size: 23px;
 	Font-weight: 300;
-	
+	margin-bottom: 15px;
+}
+
+.contact{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20px;
 }
 
 .Menu:hover{
-	
 	color:#FF4850;
-	
 }
 
 .buddies{
-	
 	margin-bottom: 15px;
-	
 }
 
 .red{
-	
 	color:#FF4850;
-	
 }
 
 .Adopt{
 	flex:1;
-	font-size: 30px;
+	font-size: 40px;
 	margin-left: 10px;
-	Font-weight: 400;
+	Font-weight: 700;
 }
 
 .Menu{
-	
 	flex:1;
 	text-align: center;
-	
 }
 
 .secondCol{
-	
 	position:static;
 	margin-left:10px;
-	
+	padding-top:15px;
 }
 
 .firstP{
-	
 	font-size: 35px;
-	Font-weight: 600;
-	
+	Font-weight: 500;
 }
 
 .secondP{
-	
 	Font-weight: 300;
 	color:#88898B;
-	font-size: 15px;
-	
-}
-
-.find{
-	
-	padding: 10px 30px;
-	
+	font-size: 20px;
 }
 
 @media (min-width: 768px){
 	
 	.Top{
-		
 		Display: flex;
-		
 	}
 	
 	.Adopt{
-	
 		margin-left: 40px;
+		Font-weight: 700;
+		font-size: 35px;
+		margin-top: 25px;
+	}
 	
+	.firstP{
+		Font-weight: 600;
+	}
+	
+	button{
+		font-size: 15px;
 	}
 	
 	ul{
-		
 		Display: flex;
 		justify-content:space-between;
-		
 	}
 	
 	li{
-		
 		padding: 25px;
 		text-align:center;
-		
+		font-size: 15px;
 	}
 	
-	body{	
-
+	body{
 		background-image:url("bulldog.jpg");
-	
+		  background-repeat: repeat-x;
 	}
 	
 	a{
-		
 		position:relative;
 		Top:25%;
-		/*vertical-align: middle;*/
 		width:100%;
 		flex:1;
-		
 	}
 	
 	.secondCol{
-		
 		margin-left: 40px;
 		padding-right: 60%;
 		position:absolute;
 		Top:25%;
-		
+		padding-top: 25px;
+	}
+	
+	.secondP{
+		font-size: 16px;
 	}
 	
 	.find{
-		
 		width: 40%;
-		
+		padding: 10px 30px;
+	}
+	
+	.contact{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 0px;
 	}
 	
 }
